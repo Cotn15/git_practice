@@ -1,0 +1,115 @@
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+span {
+    font-size: 34px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightpink;
+    margin: 0;
+    z-index: 1;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color:#5c5c5c;
+    font-family: fantasy;
+}
+
+a.magic {
+    color: black;
+}
+
+#first-words {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    width: 1000px;
+    height: 90px;
+    background-color: white;
+    align-content: center;
+    margin-left: 240px;
+    margin-top: 120px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 1rem rgba(123, 2, 123, 0.524));
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+    background-color: #b8b8ff;
+    padding: 40px 0px;
+    margin-bottom: 4px;
+    
+}
+
+.noodles {
+    height: 400px;
+    width: 550px;
+    margin: 20px 0px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.wide-noodles {
+    height: 400px;
+    width: 600;
+    border: 6px solid #fff;
+    border-radius: 10px;
+}
+
+.content {
+    text-align: center;
+    background-image: url(../Images/waves.jpg);
+    background-repeat: round;
+    background-size: auto;
+    box-shadow: inset 0 0 0 2000px rgba(200, 200, 200, 0.4);
+    padding: 40px 0px;
+    color: blacks;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.summary {
+    text-indent: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+    padding: 20px;
+    padding-left: 180px;
+    
+}
+
+.summary :hover {
+    text-transform: uppercase;
+    color: slateblue;
+
+}
+
+#final-words {
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #b8b8ff;
+    color: #5c5c5c;
+    font-family: fantasy;
+}
